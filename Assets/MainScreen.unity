@@ -290,6 +290,7 @@ GameObject:
   - component: {fileID: 1178091187}
   - component: {fileID: 1178091186}
   - component: {fileID: 1178091188}
+  - component: {fileID: 1178091189}
   m_Layer: 0
   m_Name: Main
   m_TagString: Untagged
@@ -332,6 +333,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53ef52edc4ca485408533f90a7faffce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1178091189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1178091185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8936ad346cd4de488d1b5b544b817ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loginAddress: https://www.subfi.info/VO/loginAuth.php
+  createAccountAddress: https://www.subfi.info/VO/registerAuth.php
+  getAddress: https://www.subfi.info/VO/retrieveCharacterInfo.php
+  createCharacterAddress: https://www.subfi.info/VO/createCharacterInfo.php
+  postAddress: https://www.subfi.info/VO/updateCharacterInfo.php
 --- !u!1 &1668745042
 GameObject:
   m_ObjectHideFlags: 0
